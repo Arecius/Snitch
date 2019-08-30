@@ -1,0 +1,31 @@
+{
+  "name": "snitch",
+  "version": "1.0.0",
+  "description": "Configurable web server that dump request data",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon index.js"
+  },
+  "author": "Daniel Henriquez",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.1",
+    "indent-string": "^4.0.0",
+    "mustache": "^3.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  }
+}

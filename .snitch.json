@@ -1,0 +1,11 @@
+{
+  "port": 8080,
+  "endpoints": [
+    {
+      "path": "/",
+      "method": "GET",
+      "headers": [],
+      "body": ""
+    }
+  ]
+}
